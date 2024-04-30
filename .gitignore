@@ -2,6 +2,7 @@
 
 # dependencies
 /frontnine-fe/node_modules
+/server/node_modules
 /frontnine-fe/.pnp
 /frontnine-fe/.pnp.js
 
