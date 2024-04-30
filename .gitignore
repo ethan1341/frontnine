@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontnine-fe/node_modules
+/frontnine-fe/.pnp
+/frontnine-fe/.pnp.js
+
+# testing
+/frontnine-fe/coverage
+
+# production
+/frontnine-fe/build
+
+# misc
+/frontnine-fe/.DS_Store
+/frontnine-fe/*.pem
+
+# debug
+/frontnine-fe/npm-debug.log*
+/frontnine-fe/yarn-debug.log*
+/frontnine-fe/yarn-error.log*
+
+# local env files
+/frontnine-fe/.env*.local
+
+# typescript
+/frontnine-fe/*.tsbuildinfo
+/frontnine-fe/next-env.d.ts
+
+# IDEs
+.idea
+
+
+
+
+/server/node_modules
+
+
+/server/logs
+
+*.log
