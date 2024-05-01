@@ -5,12 +5,13 @@ import {ChakraProvider} from "@chakra-ui/react";
 import {Navbar} from "./component/navbar/Navbar";
 import {Router} from "react-router-dom";
 import {AppRouter} from "./component/router/AppRouter";
+import {frontNineTheme} from "./styles/theme";
 
 const App = ()=> {
 
 
   return (
-      <ChakraProvider>
+      <ChakraProvider theme={frontNineTheme}>
           <Navbar/>
           <AppRouter></AppRouter>
       </ChakraProvider>

@@ -1,17 +1,13 @@
-import {Container, Flex, Image} from "@chakra-ui/react";
+import {Box, Button, Container, Flex, Heading, HStack, Image} from "@chakra-ui/react";
 import React from "react";
+import {Jumbotron} from "../jumbotron/Jumbotron";
+import {DirectoryCard} from "../directoryCard/DirectoryCard";
 
 export const Home = ()=>{
-    console.log('this ran')
     return (
-        <Flex height="100%" w="100%" background="red">
-            <Image
-                zIndex="1" position="relative"
-                w="100%"
-                objectFit="cover"
-                src="./jumbotron-img.jpg"
-            />
+        <Flex align="center" direction="column" height="100%" w="100%">
+        <Jumbotron/>
+            <DirectoryCard/>
         </Flex>
-
     )
 }
