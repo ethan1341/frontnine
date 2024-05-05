@@ -23,17 +23,16 @@ export const HCard:React.FC<props> = ({image,title,description})=>{
                 objectFit='cover'
                 maxW={{ base: '100%', sm: '200px' }}
                 h={'130px'}
-                src='./shoot.jpg'
+                src={image}
                 alt='Caffe Latte'
             />
 
             <Stack>
                 <CardBody>
-                    <Heading size='md'>The perfect latte</Heading>
+                    <text color="grey.800" fontSize="md">Find a course</text>
 
-                    <Text py='2'>
-                        Caffè latte is a coffee beverage of Italian origin made with espresso
-                        and steamed milk.
+                    <Text py='2' fontSize="sm" color="grey.800">
+                       Find a course in Boise Idaho!!!!!!!!
                     </Text>
                 </CardBody>
             </Stack>
